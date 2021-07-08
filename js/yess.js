@@ -17,4 +17,3 @@ var titleText = ["|", "R|", "RO|", "ROM|", "ROMA|", "ROMA4|" ,"ROMA47|","ROMA476
 function loop() {
 	document.getElementsByTagName("title")[0].innerHTML = titleText[x++ % titleText.length];
 }
-Roma4769
